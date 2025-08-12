@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: llm-rag
+Version: 0.1.0
+Summary: LLM RAG
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: langchain-chroma>=0.2.2
+Requires-Dist: langchain-community>=0.3.18
+Requires-Dist: langchain-openai>=0.3.7
+Requires-Dist: langchain-weaviate>=0.0.4
+Requires-Dist: langgraph==0.3.31
+Requires-Dist: langgraph-cli[inmem]>=0.1.74
+Requires-Dist: lark>=1.2.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: pytube==11.0.2
+Requires-Dist: rich>=13.9.4
+Requires-Dist: scikit-learn>=1.6.1
+Requires-Dist: transformers==4.49.0
+Requires-Dist: umap-learn>=0.5.7
+Requires-Dist: youtube-transcript-api==1.0.3
+Provides-Extra: ragatouille
+Requires-Dist: ragatouille>=0.0.9; extra == "ragatouille"
+
+# RAG-LangChain
